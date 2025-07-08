@@ -1,182 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ziya KV - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="myscript.js"></script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#tech-stack">Tech Stack</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
+    <!-- Navbar -->
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects & Internships</a></li>
+        <li style="float:right"><a class="active" href="/Users/ziyaraeez/Desktop/projects/resume/public/resume.pdf" target="_blank">Download Resume</a></li>
+    </ul>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <span class="subtitle">Computer Science Student</span>
-            <div class="hero-text">
-                <h1>Welcome to My Developer Portfolio</h1>
-                <p>I'm a passionate computer science student with a love for problem-solving and creating innovative solutions through code.</p>
-                <a href="#contact" class="cta-button">Let's Connect</a>
-            </div>
+    <!-- Home Section -->
+    <div class="outer" id="home">
+        <div class="home">
+            <h1>Ziya <br> Raeez</h1>
         </div>
-    </section>
+    </div>
 
     <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">Who is Ziya?</h2>
-            <div class="profile-container">
-                <img src="./public/Ziya_KV -2-Photoroom.png" alt="Profile Image" class="profile-image">
-                <div class="profile-text">
-                    <p>I'm a computer science student with a focus on artificial intelligence and web development. My journey in the world of programming began when I was 15, tinkering with simple games and websites.</p>
-                    <p>Today, I'm pursuing my passion through both academic studies and personal projects, constantly learning new technologies and frameworks to expand my skill set.</p>
-                    <p>I believe that technology can be used to solve real-world problems and make a positive impact on society. This belief drives me to create applications that are not only functional but also meaningful.</p>
-                </div>
+    <div class="outer" id="about">
+        <div class="inner-about">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello! I'm Ziya Raeez, a passionate developer and designer. I am currently pursuing my BTech degree from FISAT, Angamaly.</p>
             </div>
+            <div class="pic"><img src="/Users/ziyaraeez/Desktop/projects/resume/public/Ziya_KV .jpg" alt="Ziya Raeez"></div>
         </div>
-    </section>
+    </div>
 
     <!-- Education Section -->
-    <section id="education" class="education">
-        <div class="container">
-            <h2 class="section-title">My Education</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-year">2022 - Present</div>
-                    <div class="timeline-content">
-                        <h3>Bachelor of Technology in Computer Science and Design</h3>
-                        <p>Federal Institue of Science and Technology</p>
-                        <p>Focus areas: Web Development, Data Structures & Algorithms</p>
-                        <p>GPA: 8.4/10</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2021 - 2022</div>
-                    <div class="timeline-content">
-                        <h3>Class - 12</h3>
-                        <p>Marygiri English Medium School, Kannur</p>
-                        <p>CBSE</p>
-                        <p>Percentage - 90.8</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2019 - 2020</div>
-                    <div class="timeline-content">
-                        <h3>Class - 10</h3>
-                        <p>Indian School Sohar, Oman</p>
-                        <p>CBSE</p>
-                        <p>Percentage - 89</p>
-                    </div>
-                </div>
+    <div class="outer" id="education">
+        <div class="education">
+            <div class="ed-text">
+                <h2>Undergraduate</h2>
+                <p>Federal Institute of Science and Technology<br>CGPA - 8.40</p>
+            </div>
+            <div class="ed-text">
+                <h2>Class 12</h2>
+                <p>Marygiri English Medium School<br>Percentile - 90.2%</p>
+            </div>
+            <div class="ed-text">
+                <h2>Class 10</h2>
+                <p>Indian School Sohar<br>Percentile - 90%</p>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- Tech Stack Section -->
-    <section id="tech-stack" class="tech-stack">
-        <div class="container">
-            <h2 class="section-title">My Tech Stack</h2>
-            <div class="skills-container">
-                <div class="skill-card">
-                    <h3>Languages</h3>
-                    <ul class="skill-list">
-                        <li>Python</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>Java</li>
-                        <li>C</li>
-                        <li>HTML5/CSS3</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Web Development</h3>
-                    <ul class="skill-list">
-                        <li>React.js</li>
-                        <li>Node.js</li>
-                        <li>Express</li>
-                        <li>PostgreSQL</li>
-                        <li>RESTful APIs</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Tools & Platforms</h3>
-                    <ul class="skill-list">
-                        <li>Git & GitHub</li>
-                        <li>VS Code</li>
-                        <li>Unity 3D</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Computer Science</h3>
-                    <ul class="skill-list">
-                        <li>Data Structures</li>
-                        <li>Algorithms</li>
-                        <li>OOP Principles</li>
-                        <li>Database Design</li>
-                        <li>Web Development</li>
-                    </ul>
-                </div>
+    <!-- Skills Section -->
+    <div class="outer" id="skills">
+        <div class="inner-skills">
+          <h2>Skills</h2>
+          <div class="skills-container">
+            <div class="skill-box">Java</div>
+            <div class="skill-box">JavaScript</div>
+            <div class="skill-box">Full-Stack Development</div>
+            <div class="skill-box">Angular.js</div>
+            <div class="skill-box">C</div>
+            <div class="skill-box">Python</div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Projects & Internships Section -->
+    <div class="outer" id="projects">
+        <div class="education"> <!-- Reuse education layout -->
+            <div class="ed-text">
+                <h2>Projects</h2>
+                <p>Developed APINSPECTOR — a website to test and validate API endpoints with a user-friendly interface and powerful backend analysis.</p>
+            </div>
+            <div class="ed-text">
+                <h2>Internship</h2>
+                <p>Completed a one-month internship at NesT Digital focusing on Frontend Development using Angular.</p>
             </div>
         </div>
-    </section>
-
-    
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Reach Out to Me</h2>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-item-title">Email</div>
-                        <div class="contact-item-content">ziaraeez@gmail.com</div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-item-title">Location</div>
-                        <div class="contact-item-content">Kannur, Kerala</div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-item-title">Social</div>
-                        <div class="contact-item-content social-links">
-                            <a href="https://github.com/ZiyaRaeez" class="social-link">GitHub</a>
-                            <a href="https://www.linkedin.com/in/ziya-kv-1b1483254" class="social-link">LinkedIn</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Ziya | Computer Science Student</p>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>
